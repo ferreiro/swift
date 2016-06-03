@@ -35,7 +35,7 @@ Some methods and properties **can return nil values**.
 
 How you know when a method return nil? Whenever a **question mark** ? appears in the XCode Suggestion list, you know that it can returns a nil value.
 
-![](/../Assets/Basics/Arrays_optional_methods.png)
+![](../Assets/Basics/Arrays_optional_methods.png)
 
 So, when a variable can return nil values you have to assign (for example) the returned result to an optional variable (See the 'Optionals' Theory) and then check if the value is nil or not.
 
