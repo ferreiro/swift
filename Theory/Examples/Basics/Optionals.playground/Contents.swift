@@ -25,3 +25,6 @@ var optionalInteger: Int? = nil
 var nextInteger = optionalInteger?.successor() // If optional is nil, then successor is not called
 print("\(nextInteger)")
 
+
+var books: [String] = []
+let value: String = books.first ?? "Default value if first fails"

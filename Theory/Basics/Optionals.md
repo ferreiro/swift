@@ -102,7 +102,12 @@ var nextInteger = optionalInteger?.successor() // If optional is nil, then succe
 print("\(nextInteger)")
 ```
 
+When the array is empty and first fails, you can assign a default value
 
+```Swift
+var books: [String] = []
+let value: String = books.first ?? "Default value if first fails"
+```
 
 
 =============================
