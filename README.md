@@ -14,6 +14,7 @@ Programming language created by Chris Lattner and launch in 2014 by Apple.
 Basics:
 
 - [Variables and Types](./Theory/Basics/VariablesAndTypes.md)
+- [Conditionals](./Theory/Basics/Loops.md)
 - [Conditionals](./Theory/Basics/Conditionals.md)
 - [Switch Statements](./Theory/Basics/Switch.md)
 - [Tuples](./Theory/Basics/Tuples.md)
