@@ -17,9 +17,11 @@ Basics:
 - [Loops](./Theory/Basics/Loops.md)
 - [Conditionals](./Theory/Basics/Conditionals.md)
 - [Switch Statements](./Theory/Basics/Switch.md)
-- [Tuples](./Theory/Basics/Tuples.md)
 - [Optionals](./Theory/Basics/Optionals.md)
+
+- [Tuples](./Theory/Basics/Tuples.md)
 - [Arrays](./Theory/Basics/Arrays.md)
+- [Sets](./Theory/Basics/Sets.md)
 - [Dictionaries](./Theory/Basics/Dictionaries.md)
 
 Cool Stuff

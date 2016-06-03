@@ -45,3 +45,7 @@ myDict.removeValueForKey("Key1")
 // When you assign a nil value to a key. It's erased.
 myDict2["Key1"] = nil
 ```
+
+
+=============================
+[<- Return Index](/README.md)
