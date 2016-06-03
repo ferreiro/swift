@@ -1,6 +1,3 @@
-[<- Return Index](/README.md)
-
-
 # Optionals Types
 
 **Optionals** are variables that can be nil or contains a value.
@@ -70,3 +67,8 @@ else {
 
 1. It's better not to use them. Only use optionals in some particular cases.
 2. Don't use ! directly. Use an optional variable instead.
+
+
+
+=============================
+[<- Return Index](/README.md)

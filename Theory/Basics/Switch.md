@@ -1,6 +1,3 @@
-[<- Return Index](/README.md)
-
-
 # Switch Statement
 
 You can create variables inside the conditions like isAWolf
@@ -42,3 +39,7 @@ switch awesomeNumber {
       print("Greater than 5")
 }
 ```
+
+
+=============================
+[<- Return Index](/README.md)

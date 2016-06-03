@@ -1,6 +1,3 @@
-[<- Return Index](/README.md)
-
-
 # Conditionals
 
 ```Swift
@@ -79,3 +76,7 @@ repeat {
   => 1
   => 2
   ```
+
+
+=============================
+[<- Return Index](/README.md)

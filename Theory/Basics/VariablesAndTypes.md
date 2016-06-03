@@ -1,6 +1,3 @@
-[<- Return Index](/README.md)
-
-
 # Types of variables
 - **let:** When you don't want to allow value of the variable change
 - **var:** Value can change during the program execution.
@@ -34,3 +31,7 @@ var fullName = "Jorge"
 var greetings = "Hello! My name is \(fullName). Nice to meet you."
 => "Hello! My name is Jorge. Nice to meet you."
 ```
+
+
+=============================
+[<- Return Index](/README.md)

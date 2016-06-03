@@ -1,6 +1,3 @@
-[<- Return Index](/README.md)
-
-
 # Tuples
 
 In a mathematical way, a tuple is an ordered list of elements (you can mix different types of variables).
@@ -43,3 +40,7 @@ bookTitle
 
 => "Swift, the good parts"
 ```
+
+
+=============================
+[<- Return Index](/README.md)
