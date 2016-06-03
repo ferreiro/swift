@@ -31,6 +31,9 @@ var animals = [
 books.first
 books.count
 ```
+
+### Properties can return nil values
+
 Some methods and properties **can return nil values**.
 
 How you know when a method return nil? Whenever a **question mark** ? appears in the XCode Suggestion list, you know that it can returns a nil value.
