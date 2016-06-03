@@ -18,7 +18,6 @@ Basics:
 - [Conditionals](./Theory/Basics/Conditionals.md)
 - [Switch Statements](./Theory/Basics/Switch.md)
 - [Optionals](./Theory/Basics/Optionals.md)
-
 - [Tuples](./Theory/Basics/Tuples.md)
 - [Arrays](./Theory/Basics/Arrays.md)
 - [Sets](./Theory/Basics/Sets.md)
