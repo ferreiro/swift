@@ -220,8 +220,6 @@ switch awesomeNumber {
 
 **Optionals** are variables that can be nil or contains a value.
 
-**Recommendations** It's better not to use them. Only use optionals in some particular cases.
-
 ### Declaring optionals
 
 You have to include a question mark **?** after the variable Type like this:
@@ -282,3 +280,8 @@ if let optionalVariable = xyz {
 else {
     print("Variable 'xyz' is nil...")
 ```
+
+### Recommendations with optionals
+
+1. It's better not to use them. Only use optionals in some particular cases.
+2. Don't use ! directly. Use an optional variable instead.
