@@ -1,4 +1,4 @@
-Starting Learning Swift 3 Junio 2015 at 01:34
+Starting Learning Swift 3 Junio 2015 at 01:34am
 
 # Swift
 
@@ -220,7 +220,10 @@ switch awesomeNumber {
 
 **Optionals** are variables that can be nil or contains a value.
 
+**Recommendations** It's better not to use them. Only use optionals in some particular cases.
+
 ### Declaring optionals
+
 You have to include a question mark **?** after the variable Type like this:
 
 ```Swift
