@@ -1,3 +1,6 @@
+[<- Return Index](/README.md)
+
+
 # Types of variables
 - **let:** When you don't want to allow value of the variable change
 - **var:** Value can change during the program execution.
