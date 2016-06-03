@@ -36,7 +36,7 @@ books.count
 
 Some methods and properties **can return nil values**.
 
-How you know when a method return nil? Whenever a **question mark** ? appears in the XCode Suggestion list, you know that it can returns a nil value.
+How do you know when a method return nil? Whenever a **question mark** ? appears in the XCode Suggestion list, you know that it can returns a nil value.
 
 ![](../Assets/Basics/Arrays_optional_methods.png)
 
