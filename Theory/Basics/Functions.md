@@ -8,6 +8,41 @@ func nameCamelCase() -> ReturnType {
 }
 ```
 
+### Return types
+
+- Return **Integer** Numbers.
+
+  ```Swift
+  func myAge() -> Int {
+    return 20;
+  }
+  ```
+
+- Return **String**.
+
+  ```Swift
+  func myName() -> String {
+    return "Jorge"
+  }
+  ```
+
+- **Void** Functions can include "Void" return Type or nothing.
+
+  Define a **void function** that prints a message:
+
+  ```Swift
+  func voidGreetings() {
+      print("Hello!")
+  }
+
+  func voidGreetings2() -> Void {
+    print("Jorge")
+  }
+
+  voidGreetings()
+  voidGreetings2()
+  ```
+
 ### Parameters
 
 - Passing a **parameter** called ``name``
@@ -75,40 +110,6 @@ func nameCamelCase() -> ReturnType {
   greetings4(outName: "Ferr", outAge: 20)
   ```
 
-### Return types
-
-- Return **Integer** Numbers.
-
-  ```Swift
-  func myAge() -> Int {
-    return 20;
-  }
-  ```
-
-- Return **String**.
-
-  ```Swift
-  func myName() -> String {
-    return "Jorge"
-  }
-  ```
-
-- **Void** Functions can include "Void" return Type or nothing.
-
-  Define a **void function** that prints a message:
-
-  ```Swift
-  func voidGreetings() {
-      print("Hello!")
-  }
-
-  func voidGreetings2() -> Void {
-    print("Jorge")
-  }
-
-  voidGreetings()
-  voidGreetings2()
-  ```
 
 =============================
 [<- Return Index](/README.md)
