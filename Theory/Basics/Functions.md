@@ -33,17 +33,17 @@ func myName() {
 
 ### Examples
 
-Define a void function that prints a message:
+- Define a **void function** that prints a message:
 
-```Swift
-func greetings() {
-    print("Hello!")
-}
+  ```Swift
+  func greetings() {
+      print("Hello!")
+  }
 
-greetings()
-```
+  greetings()
+  ```
 
-- Passing Parameters:
+- Passing **Parameters**:
 
   ```Swift
   func greetings2(name: String) {
@@ -53,7 +53,7 @@ greetings()
   greetings2("Jorge")
   ```
 
-- Parameters with an alias name. You can define 2 alias. One internal (to use inside your function) and one external (to use by the client)
+- **Parameters with an alias** name. You can define 2 alias. One internal (to use inside your function) and one external (to use by the client)
 
   ```Swift
   // You can have an alias of parameters. So when you call the function, you use the alias
@@ -73,7 +73,7 @@ greetings()
   greetings4(outName: "Ferr", outAge: 20)
   ```
 
-- Passing a list of parameters using ``...``
+- Passing a **list of parameters** using ``...``
 
   ```Swift
   // You can pass a list of parameters with ...
