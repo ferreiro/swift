@@ -1,17 +1,19 @@
-Starting Learning Swift 3 Junio 2015 at 01:34am
-
 # Swift
 
-Programming language created by Chris Lattner and launch in 2014 by Apple.
+*Starting Learning Swift 3 Junio 2015 at 01:34am*
 
-**Features:**
+**Swift** is a programming language created by Chris Lattner and launch in 2014 by Apple.
+
+### Highlight Features:
 
 1. Cross platform (Ios, MacOsx, AppleWatch).
 2. Perfect for Functional programming.
+3. Beautiful Syntax / Easy to Learn.
+4. Inspired by other languages (Lisp, Python, Ruby, Rust...)
 
 ## Theory
 
-Basics:
+### Basics:
 
 - [Variables and Types](./Theory/Basics/VariablesAndTypes.md)
 - [Loops](./Theory/Basics/Loops.md)
@@ -22,5 +24,3 @@ Basics:
 - [Arrays](./Theory/Basics/Arrays.md)
 - [Sets](./Theory/Basics/Sets.md)
 - [Dictionaries](./Theory/Basics/Dictionaries.md)
-
-Cool Stuff
