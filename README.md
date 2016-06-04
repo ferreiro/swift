@@ -24,6 +24,7 @@
 - [Arrays](./Theory/Basics/Arrays.md)
 - [Sets](./Theory/Basics/Sets.md)
 - [Dictionaries](./Theory/Basics/Dictionaries.md)
+- [Functions](./Theory/Basics/Functions.md)
 
 ## Swift Projects
 
