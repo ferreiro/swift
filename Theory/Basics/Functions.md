@@ -104,10 +104,10 @@ func nameCamelCase() -> ReturnType {
   Another Example:
 
   ```Swift
-  func greetings4(outName name:String, outAge age: Int) {
+  func greetings5(outName name:String, outAge age: Int) {
       print("My name is \(name) and my age is \(age)")
   }
-  greetings4(outName: "Ferr", outAge: 20)
+  greetings5(outName: "Ferr", outAge: 20)
   ```
 
 
