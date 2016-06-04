@@ -24,3 +24,9 @@
 - [Arrays](./Theory/Basics/Arrays.md)
 - [Sets](./Theory/Basics/Sets.md)
 - [Dictionaries](./Theory/Basics/Dictionaries.md)
+
+## Swift Projects
+
+A list of projects I'm making with Swift to learn and practise.
+
+- [MyTodoList - First application to add notes](Projects/MyTodoList/)
