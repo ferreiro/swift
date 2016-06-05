@@ -4,6 +4,28 @@ Properties are associate values with a particular class, structure, or enumerati
 
 Reference: [Properties in Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html#//apple_ref/doc/uid/TP40014097-CH14-ID254)
 
+### Visibility of Properties
+
+Reference: [Access Control](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AccessControl.html)
+
+Access control restricts access to parts of your code from code in other source files and modules. This feature enables you to hide the implementation details of your code, and to specify a preferred interface through which that code can be accessed and used.
+
+**Access Levels:**
+
+- **Public** access enables entities to be used within any source file from their defining module, and also in a source file from another module that imports the defining module. You typically use public access when specifying the public interface to a framework.
+
+- **Internal** *(by default)* access enables entities to be used within any source file from their defining module, but not in any source file outside of that module. You typically use internal access when defining an app’s or a framework’s internal structure.
+
+- **Private** Private access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
+
+```
+class Example {
+  public var name: Int = "Jorge"
+  internal var age: Int = 20
+  private var city: String = "World"
+}
+```
+
 ### Two types of properties:
 
 - **Stored Properties:**<br/>In its simplest form, a stored property is a constant or variable that is stored as part of an instance of a particular class or structure. Stored properties can be either variable stored properties (introduced by the var keyword) or constant stored properties (introduced by the let keyword).
@@ -59,12 +81,6 @@ Reference: [Properties in Swift](https://developer.apple.com/library/ios/documen
   => "My name is Jorge and I am 20 years old"
   ```
 
-###Visibility of Properties:
-
-- **Internal** (by default)
-- **Private**
-- **Public**
-
 ### Property Observers
 
 Property observers observe and respond to changes in a property’s value. Property observers are called every time a property’s value is set, even if the new value is the same as the property’s current value.
@@ -91,7 +107,7 @@ c.employeeNumber = 30
 
 ### Static Properties
 
-**Static** variables are shared between sll the class objects.
+**Static** variables are shared between all the class objects.
 
 That is, if modify an static attribute, it's updated for all the instances (objects) of that class
 
