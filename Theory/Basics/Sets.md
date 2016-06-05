@@ -9,7 +9,7 @@
 **Warning** Due the elements is not ordered. You can not think that inserting 4 elements. You can not assume that their indexes are the same as when you insert them.
 
 ### Methods
-![](../Assets/Basics/Sets.png)
+![](Assets/Basics/Sets.png)
 
 ### Creating Sets
 

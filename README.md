@@ -39,4 +39,8 @@
 
 A list of projects I'm making with Swift to learn and practise.
 
-- [MyTodoList - First application to add notes](Projects/MyTodoList/)
+### MyTodoList - First application to add notes
+
+[MyTodoList (App Source Code)](Projects/MyTodoList/)
+
+- [Connecting View Elements with the Controller](Theory/Apps/ConnectingViewWithController.md)
