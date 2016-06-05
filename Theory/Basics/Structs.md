@@ -4,7 +4,7 @@ Classes and structures are general-purpose, flexible constructs that become the 
 
 Structs are perfect for functional programming because is like immutable objets (EG: always pass by value, so never modified the original object)
 
-### How to define a Struct?
+### Structure
 
 ```Swift
 struct Body {
