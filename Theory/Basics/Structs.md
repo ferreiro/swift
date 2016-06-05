@@ -75,9 +75,9 @@ var boy2 = Boy2()
 boy2.updateAge(20)
 ```
 
-### Structs with let can not be modified
+### Constant Structs with let
 
-When you use `let` variable to instantiate a new struct, you can not modified it's values after (in classes, when you use let, you can modify the object but don't assign a different reference. In the struct you can not modify any value).
+When you use `let` variable to instantiate a new struct, you **can not modified its attributes** after (in classes, when you use let, you can modify the object but don't assign a different reference. In the struct you can not modify any value).
 
 ```Swift
 Struct Boy3 {
