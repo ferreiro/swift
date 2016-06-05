@@ -35,6 +35,7 @@ var jorge = Person()
 
 print(jorge.weight)
 => 0
+
 print(jorge.height)
 => 0
 ```

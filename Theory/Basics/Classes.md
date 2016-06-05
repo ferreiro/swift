@@ -2,7 +2,7 @@
 
 Classes and structures are general-purpose, flexible constructs that become the building blocks of your program’s code.
 
-### Structure
+### Definition
 
 ```Swift
 class Person {
@@ -16,10 +16,13 @@ jorge.age = 20
 
 print("My name is \(jorge.name) and I'm \(jorge.age)")
 ```
+### Properties
 
-### Static attributes
+See [Properties File](./Properties.md)
 
-**Static** variables are shared between sll the class objects.
+### Static Properties
+
+**Static** variables are shared between all the class objects.
 
 That is, if modify an static attribute, it's updated for all the instances (objects) of that class
 
