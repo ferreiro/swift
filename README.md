@@ -30,7 +30,10 @@
 
 - [Structs](./Theory/Basics/Structs.md)
 - [Classes](./Theory/Basics/Classes.md)
+- [Properties](./Theory/Basics/Properties.md)
 - [Classes Vs. Structs](./Theory/Basics/StructsVsClasses.md)
+- [Protocols](./Theory/Basics/Protocols.md)
+- [Extensions](./Theory/Basics/Extensions.md)
 
 ## Swift Projects
 
