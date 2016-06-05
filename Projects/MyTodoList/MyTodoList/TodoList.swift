@@ -9,5 +9,10 @@
 import UIKit
 
 class TodoList: NSObject {
-
+    
+    var items: [String] = []
+    
+    func addItem(newItem: String) {
+        items.append(newItem)
+    }
 }

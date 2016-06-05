@@ -14,6 +14,7 @@
 		A93683CD1D023EC200653350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93683CB1D023EC200653350 /* LaunchScreen.storyboard */; };
 		A93683D81D023EC200653350 /* MyTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93683D71D023EC200653350 /* MyTodoListTests.swift */; };
 		A93683E31D023EC300653350 /* MyTodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93683E21D023EC300653350 /* MyTodoListUITests.swift */; };
+		A93A49AD1D04EA3D00A03F7B /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A49AC1D04EA3D00A03F7B /* TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A93683DE1D023EC200653350 /* MyTodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93683E21D023EC300653350 /* MyTodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodoListUITests.swift; sourceTree = "<group>"; };
 		A93683E41D023EC300653350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93A49AC1D04EA3D00A03F7B /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A93683C91D023EC200653350 /* Assets.xcassets */,
 				A93683CB1D023EC200653350 /* LaunchScreen.storyboard */,
 				A93683CE1D023EC200653350 /* Info.plist */,
+				A93A49AC1D04EA3D00A03F7B /* TodoList.swift */,
 			);
 			path = MyTodoList;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93A49AD1D04EA3D00A03F7B /* TodoList.swift in Sources */,
 				A93683C51D023EC200653350 /* ViewController.swift in Sources */,
 				A93683C31D023EC200653350 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				A93683E91D023EC300653350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93683EA1D023EC300653350 /* Build configuration list for PBXNativeTarget "MyTodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				A93683EC1D023EC300653350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93683ED1D023EC300653350 /* Build configuration list for PBXNativeTarget "MyTodoListUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				A93683EF1D023EC300653350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
