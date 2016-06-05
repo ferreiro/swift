@@ -7,8 +7,8 @@
 ### Highlight Features:
 
 1. Cross platform (Ios, MacOsx, AppleWatch).
-2. Perfect for Functional programming.
-3. Beautiful Syntax / Easy to Learn.
+2. Perfect for **Functional programming**.
+3. **Beautiful** Syntax / Easy to Learn.
 4. Inspired by other languages (Lisp, Python, Ruby, Rust...)
 
 ## Theory
@@ -25,6 +25,12 @@
 - [Sets](./Theory/Basics/Sets.md)
 - [Dictionaries](./Theory/Basics/Dictionaries.md)
 - [Functions](./Theory/Basics/Functions.md)
+
+### Data Structure:
+
+- [Structs and Closures](./Theory/Basics/Structs.md)
+- [Classes](./Theory/Basics/Classes.md)
+- [Classes Vs. Structs](./Theory/Basics/StructsVsClasses.md)
 
 ## Swift Projects
 
