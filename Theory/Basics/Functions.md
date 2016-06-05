@@ -1,6 +1,6 @@
 # Functions
 
-### Basic Structure
+### Definition
 
 ```Swift
 func nameCamelCase() -> ReturnType {
