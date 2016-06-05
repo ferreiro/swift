@@ -35,7 +35,7 @@ protocol ChildProtocolType : ParentProtocolType {
 
 ### Class implementing a protocol
 
-You have to include all the
+You have to include all the properties and functions from the implemented Protocol (if not, an error will occur)
 
 ```Swift
 // Class implementing the protocol EventType
