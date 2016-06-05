@@ -18,7 +18,7 @@ Access control restricts access to parts of your code from code in other source 
 
 - **Private** Private access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
 
-```
+```Swift
 class Example {
   public var name: Int = "Jorge"
   internal var age: Int = 20
