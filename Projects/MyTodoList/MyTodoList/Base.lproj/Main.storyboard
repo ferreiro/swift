@@ -31,7 +31,7 @@
                                 <rect key="frame" x="525" y="20" width="55" height="30"/>
                                 <state key="normal" title="Save up"/>
                                 <connections>
-                                    <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhY-aa-zEg"/>
+                                    <action selector="saveNoteButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvF-YH-gTn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,7 +49,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="itemTextField" destination="NSs-sV-kPi" id="MpB-u4-2xA"/>
+                        <outlet property="noteTextField" destination="NSs-sV-kPi" id="nAR-ZK-lZO"/>
+                        <outlet property="notesTableView" destination="To2-Nk-diH" id="dzb-w0-bBh"/>
+                        <outlet property="saveNoteButton" destination="NMe-D2-Hhy" id="GKL-xx-66X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

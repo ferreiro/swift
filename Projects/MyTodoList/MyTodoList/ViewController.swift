@@ -12,14 +12,21 @@ class ViewController: UIViewController {
     
     let todoList = TodoList()
     
-    @IBOutlet weak var itemTextField: UITextField!
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var saveNoteButton: UIButton!
+    @IBOutlet weak var noteTextField: UITextField!
+    @IBOutlet weak var notesTableView: UITableView!
     
-    @IBAction func addButtonPressed(sender: UIButton) {
-        if let newItem = itemTextField.text {
-            todoList.addItem(newItem)
-            print("Adding an element to the view \(newItem)")
+    @IBAction func saveNoteButtonPressed(sender: UIButton) {
+       
+        if let item = noteTextField.text {
+            todoList.addItem(item)
+            todoList.displayItems()
+            print("Note Saved!")
         }
+        else {
+            print("You have to enter some text to save the note")
+        }
+        
     }
 
     override func viewDidLoad() {

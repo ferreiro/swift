@@ -15,4 +15,10 @@ class TodoList: NSObject {
     func addItem(newItem: String) {
         items.append(newItem)
     }
+
+    func displayItems() {
+        for item in items {
+            print(item)
+        }
+    }
 }
