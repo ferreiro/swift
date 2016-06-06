@@ -2,7 +2,7 @@
 
 Ios applications follow the following **MVC design pattern**
 
-[Ios Applicacions MVC design pattern](/Assets/Apps/MVC_IOS.png)
+![Ios Applicacions MVC design pattern](/Assets/Apps/MVC_IOS.png)
 
 ### 1: Create outlets (variables) in the Controller  and link them with the objects in the View
 
@@ -31,15 +31,15 @@ Ios applications follow the following **MVC design pattern**
 
   **Press Control key** in the yellow round button and link it to the Buttons
 
-  [](/Assets/Apps/link_controller_button_to_view_1.png)
+  ![](/Assets/Apps/link_controller_button_to_view_1.png)
 
 3. Select the Outlet (variable) corresponding to the one you created in the ViewController.swift (in this example, the viewButton)
 
-  [](/Assets/Apps/link_controller_button_to_view_2_outlets.png)
+  ![](/Assets/Apps/link_controller_button_to_view_2_outlets.png)
 
 4. In **ViewController.swift** you should see the round filled.
 
-  [](/Assets/Apps/link_controller_button_to_view_3_filled.png)
+  ![](/Assets/Apps/link_controller_button_to_view_3_filled.png)
 
 ### 2: Create an action in the Controller and link the action from the View to Controller
 
@@ -64,28 +64,28 @@ An action is a function that will be executed when a new event occurs in the Vie
 
 2. In **Main.storyboard**, click on the button + press control. Then link the button to the ViewController.swift
 
-  [](/Assets/Apps/link_controller_action_to_view_1.png)
+  ![](/Assets/Apps/link_controller_action_to_view_1.png)
 
 3. Click the "saveNoteButtonPressed" action we created on **ViewController.swift**
 
-  [](/Assets/Apps/link_controller_action_to_view_2.png  )
+  ![](/Assets/Apps/link_controller_action_to_view_2.png  )
 
 4. Then in the **ViewController.swift** now the action round shape should appear filled.
 
-  [](/Assets/Apps/link_controller_action_to_view_3 .png)
+  ![](/Assets/Apps/link_controller_action_to_view_3 .png)
 
 ### 3: It's time to create our Model and save the new notes into the model
 
 1. Create a new file in Xcode of **Cocoa Touch Class**
 
   - Go to [ File > New File > File ]
-    [](/Assets/Apps/cocoa_touch_1.png)
+    ![](/Assets/Apps/cocoa_touch_1.png)
 
   - Select Cocoa Touch Class
-    [](/Assets/Apps/cocoa_touch_2.png)
+    ![](/Assets/Apps/cocoa_touch_2.png)
 
   - Must be **NSObject**
-    [](/Assets/Apps/cocoa_touch_3.png)
+    ![](/Assets/Apps/cocoa_touch_3.png)
 
 2. Create a variable **items** of type array of Strings and create 2 more methods: a **function to add** a new Item and a **function to display** all the items
 
