@@ -19,14 +19,5 @@ extension Point: CustomStringConvertible {
 }
 ```
 
-```Swift
-```
-
-```Swift
-```
-
-```Swift
-```
-
 =============================
 [<- Return Index](/README.md)
