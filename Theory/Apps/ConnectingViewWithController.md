@@ -118,6 +118,7 @@ An action is a function that will be executed when a new event occurs in the Vie
     let todoList = TodoList()
 
     // Rest of the Properties and Functions Equal
+  }
   ```
 
 4. Finally, modify the **function action** in the **ViewController.swift** to storage the item into our model.
