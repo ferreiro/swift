@@ -78,13 +78,13 @@ An action is a function that will be executed when a new event occurs in the Vie
 
 1. Create a new file in Xcode of **Cocoa Touch Class**
 
-  - Go to [ File > New File > File ]
+  - Go to [ File > New File > File ]<br /><br />
     ![](/Assets/Apps/cocoa_touch_1.png)
 
-  - Select Cocoa Touch Class
+  - Select Cocoa Touch Class<br /><br />
     ![](/Assets/Apps/cocoa_touch_2.png)
 
-  - Must be **NSObject**
+  - Must be **NSObject**<br /><br />
     ![](/Assets/Apps/cocoa_touch_3.png)
 
 2. Create a variable **items** of type array of Strings and create 2 more methods: a **function to add** a new Item and a **function to display** all the items
