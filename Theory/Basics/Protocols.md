@@ -4,6 +4,8 @@ An structure which you define your API: what are those public methods that the u
 
 So you don't include any code, just the properties and functions. So, protocols are like "unimplemented classes" which you can implement later or compound more complex protocols from it.
 
+**Good thing** is that you can say which methods are mandatory to implement and which methods aren't
+
 ### Definition
 
 Defining an Event protocol with 2 properties and 1 function.

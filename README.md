@@ -44,3 +44,4 @@ A list of projects I'm making with Swift to learn and practise.
 [MyTodoList (App Source Code)](Projects/MyTodoList/)
 
 - [Connecting View Elements with the Controller](Theory/Apps/ConnectingViewWithController.md)
+- [Add itesm to the table View](Theory/Apps/TableAddItems.md)

@@ -27,11 +27,15 @@ class ViewController: UIViewController {
             print("You have to enter some text to save the note")
         }
         
+        notesTableView.reloadData()
+        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        notesTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        notesTableView.dataSource = todoList // Este es el objecto al cual tienes que preguntar
     }
 
     override func didReceiveMemoryWarning() {
